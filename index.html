@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">WORK TO-DO</div>
+      <div class="instructions">
+        <ul>
+          <li class="list">Enter text in the field to add a task</li>
+          <li class="list">Click a task to mark it as complete</li>
+          <li class="list">Press X in order to delete the task</li>
+        </ul>
+      </div>
+      <div class="inputArea">
+        <input
+          id="task-input"
+          type="text"
+          placeholder="New Task..."
+          maxlength="50"
+        />
+        <button type="submit" value="send" class="button" id="submitButton">
+          Create
+        </button>
+      </div>
+      <div id="taskListContainer">
+        <!-- <div class="task"><div class="task-name">Make a website</div><div class="tick">tick</div><div class="cross">X</div></div> -->
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

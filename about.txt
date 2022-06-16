@@ -1,0 +1,4 @@
+
+TO-DO:
+    MARK TASK AS DONE
+    Allow making task by pressing ENTER
